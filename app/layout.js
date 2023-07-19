@@ -1,10 +1,10 @@
 import './globals.css'
-import { Manrope } from 'next/font/google'
+import { Manrope, Inter } from 'next/font/google'
 
 // Required Components
 import MainHeader from './components/layout/main-header';
 
-const manrope = Manrope({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',

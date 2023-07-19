@@ -1,0 +1,173 @@
+.hero-section {
+    display:block;
+    width:100%;
+    background-color:#010101;
+    height:calc(100vh - 6rem);
+}
+
+.hero-section-inner-wrapper {
+    display:flex;
+    position:relative;
+    width:100%;
+    max-width:1920px;
+    margin:0 auto;
+    padding:0 1.5rem 2rem;
+    height:100%;
+}
+
+.banner-overlay {
+    width:100%;
+    height:100%;
+    background-color:rgba(1,1,1,0.75);
+    position:absolute;
+}
+
+.hero-section-content {
+    display:flex;
+    background-image:url('../../../public/assets/home/aerial-view-of-football-match.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:0;
+    border-radius:0.5rem;
+    flex-grow:1;
+    align-items:center;
+    padding:0 0.6rem;
+}
+
+.hero-section-content-wrapper {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.hero-section-content-copy, .hero-section-content-ctas {
+    position:relative;
+    color:#f1f1f1;
+}
+
+.hero-section-content-copy {
+    margin-bottom:2rem;
+}
+
+.header-accent {
+    color:#b9f4ae;
+}
+
+.hero-section-header-copy {
+    font-size:4.5rem;
+    line-height:90%;
+    text-transform:uppercase;
+    letter-spacing:-0.2rem;
+    margin-bottom:1rem;
+    color:#fff;
+}
+
+.hero-section-body-copy {
+    font-size:1.1rem;
+    line-height:1.25rem;
+    color:#bbb;
+}
+
+.hero-section-content-ctas {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.hero-section-learn-more-link {
+    margin-right:1.5rem;
+    font-size:0.9rem;
+    line-height:1.1rem;
+    font-weight:600;
+    padding:0 0 0.4rem;
+    border-bottom:2px solid #b9f4ae;
+}
+
+.hero-section-join-now-btn {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:transparent;
+    border:1.25px solid #f1f1f1;
+    border-radius:3.2rem;
+    color:#f1f1f1;
+    padding:0.5rem 1rem;
+    padding-left:1.5rem;
+    width:100%;
+    font-size:0.9rem;
+    line-height:1.1rem;
+    transition: background-color 0.5s ease-in;
+  }
+
+  .hero-section-join-now-btn svg {
+    width:2rem;
+    color:#b9f4ae;
+    margin-left:0.5rem;
+  }
+
+@media screen and (min-width:520px) {
+    .hero-section-content-wrapper {
+        width:90%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .hero-section-inner-wrapper {
+        padding:1.75rem 1.75rem 3.5rem;
+    }
+    .hero-section-content {
+        padding:0 2rem;
+    }
+    .hero-section-content-wrapper {
+        width:80%;
+    }
+    .hero-section-content-copy {
+        margin-bottom:3.6rem;
+    }
+    .hero-section-header-copy {
+        font-size:6rem;
+    }
+    .hero-section-body-copy {
+        font-size:1.3rem;
+        line-height:1.5rem;
+    }
+}
+
+@media screen and (min-width:1120px) {
+    .hero-section {
+        height:calc(100vh - 7rem);
+    }
+    .hero-section-inner-wrapper {
+        padding:0rem 2rem 3.5rem;
+    }
+    .hero-section-content-copy {
+        margin-bottom:4rem;
+    }
+    .hero-section-header-copy {
+        font-size:7.2rem;
+    }
+    .hero-section-body-copy {
+        font-size:1.5rem;
+        line-height:1.8rem;
+    }
+    .hero-section-learn-more-link {
+        margin-right:2rem;
+    }
+    .hero-section-learn-more-link, .hero-section-join-now-btn {
+        font-size:1.1rem;
+        line-height:1.25rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .hero-section {
+        height:calc(100vh - 8rem);
+    }
+    .hero-section-inner-wrapper {
+        padding:0rem 2.5rem 5rem;
+    }
+    .hero-section-content-wrapper {
+        width:70%;
+    }
+}
