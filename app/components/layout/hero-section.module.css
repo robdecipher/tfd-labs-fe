@@ -82,6 +82,7 @@
     font-weight:600;
     padding:0 0 0.4rem;
     border-bottom:2px solid #b9f4ae;
+    transition:color 0.4s ease-in, font-size 0.4s ease-in;
 }
 
 .hero-section-join-now-btn {
@@ -100,10 +101,20 @@
     transition: background-color 0.5s ease-in;
   }
 
+  .hero-section-join-now-btn:hover {
+    background-color:#b9f4ae;
+    border:1.25px solid #b9f4ae;
+    color:#010101;
+  }
+
   .hero-section-join-now-btn svg {
     width:2rem;
     color:#b9f4ae;
     margin-left:0.5rem;
+  }
+
+  .hero-section-join-now-btn:hover svg {
+    color:#010101;
   }
 
 @media screen and (min-width:520px) {
@@ -132,6 +143,9 @@
         font-size:1.3rem;
         line-height:1.5rem;
     }
+    .hero-section-learn-more-link:hover {
+        font-size:1.1rem;
+    }
 }
 
 @media screen and (min-width:1120px) {
@@ -158,16 +172,19 @@
         font-size:1.1rem;
         line-height:1.25rem;
     }
+    .hero-section-learn-more-link:hover {
+        font-size:1.3rem;
+    }
 }
 
 @media screen and (min-width:1400px) {
     .hero-section {
         height:calc(100vh - 8rem);
     }
-    .hero-section-inner-wrapper {
-        padding:0rem 2.5rem 5rem;
+    .hero-section-content {
+        padding:0 4rem;
     }
     .hero-section-content-wrapper {
-        width:70%;
+        width:60%;
     }
 }
