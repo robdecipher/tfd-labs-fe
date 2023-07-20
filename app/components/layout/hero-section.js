@@ -8,8 +8,8 @@ function HeroSection() {
         <section className={styles['hero-section']}>
             <div className={styles['hero-section-inner-wrapper']}>
                 <div className={styles['banner-overlay']}></div>
-                    <div className={styles['hero-section-content']}>
-                        <div className={styles['hero-section-content-wrapper']}>
+                <div className={styles['hero-section-content']}>
+                    <div className={styles['hero-section-content-wrapper']}>
                         <div className={styles['hero-section-content-copy']}>
                             <h2 className={styles['hero-section-header-copy']}><span className={styles['header-accent']}>Master</span><br /> the Game!</h2>
                             <p className={styles['hero-section-body-copy']}>Build your winning strategy with our data driven football statistics and predictions to take your profit to the next level.</p>
