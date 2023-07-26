@@ -1,7 +1,6 @@
 .logo-slider {
     display:block;
     width:100%;
-    margin-bottom:50rem;
 }
 
 .logo-slider-inner-wrapper {
@@ -20,7 +19,7 @@
 
 .logo-slider-slides-wrapper {
     background-color:#0e0e0e;
-    padding:3rem 0;
+    padding:2rem 0;
     border-radius:0.5rem;
 }
 
@@ -44,21 +43,18 @@
     .logo-slider-header-text {
         font-size:3.2rem;
     }
+    .logo-slider-slides-wrapper {
+        padding:3rem 0;
+    }
 }
 
 @media screen and (min-width:1120px) {
-    .logo-slider-header {
-        margin-bottom:5rem;
-    }
     .logo-slider-header-text {
         font-size:3.6rem;
     }
 }
 
 @media screen and (min-width:1400px) {
-    .logo-slider-header {
-        margin-bottom:6rem;
-    }
     .logo-slider-header-text {
         font-size:4rem;
     }

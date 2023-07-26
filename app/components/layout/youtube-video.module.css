@@ -1,0 +1,17 @@
+.youtube-video {
+    display:flex;
+}
+
+.youtube-video-inner-wrapper {
+    display:flex;
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    padding:2rem 1.5rem 2rem;
+}
+
+@media screen and (min-width:992px) {
+    .youtube-video-inner-wrapper {
+        padding:2rem 2rem 3.5rem;
+    }
+}

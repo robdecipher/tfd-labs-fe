@@ -17,11 +17,11 @@ function LogoSlider() {
         dots:false,
         arrows:false,
         infinite:true,
-        speed:3000,
+        speed:1500,
         slidesToShow:4,
         slidesToScroll:1,
         autoplay:true,
-        autoplaySpeed:3000,
+        autoplaySpeed:1500,
         responsive: [
             {
                 breakpoint:1320,
