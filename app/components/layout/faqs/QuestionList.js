@@ -13,7 +13,7 @@ function FAQList() {
         <section className={styles['faq-list']}>
             <div className={styles['faq-list-inner-wrapper']}>
                 <div className={styles['faq-list-header']}>
-                    <h2 className={styles['faq-list-header-text']}>Frequently Asked <br />Questions</h2>
+                    <h2 className={styles['faq-list-header-text']}><span className='text-accent'>Frequently Asked</span><br />Questions</h2>
                 </div>
                 {FAQs.map((question) => (
                     <Question keu={question.id} {...question} />

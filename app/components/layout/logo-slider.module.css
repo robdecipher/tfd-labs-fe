@@ -1,6 +1,8 @@
 .logo-slider {
     display:block;
     width:100%;
+    max-width:1440px;
+    margin:0 auto;
 }
 
 .logo-slider-inner-wrapper {

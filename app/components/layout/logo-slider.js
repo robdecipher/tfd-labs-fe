@@ -42,7 +42,7 @@ function LogoSlider() {
         <section className={styles['logo-slider']}>
             <div className={styles['logo-slider-inner-wrapper']}>
                 <div className={styles['logo-slider-header']}>
-                    <h2 className={styles['logo-slider-header-text']}>Supported<br /> Leagues</h2>
+                    <h2 className={styles['logo-slider-header-text']}><span className='text-accent'>Supported</span><br /> Leagues</h2>
                 </div>
                 <div className={styles['logo-slider-slides-wrapper']}>
                     <Slider {...settings}>
