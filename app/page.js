@@ -1,7 +1,5 @@
-import Image from 'next/image';
-import styles from './page.module.css';
-
 // Styling, Components & Assets
+import styles from './page.module.css';
 import HeroSection from './components/layout/hero-section';
 import LogoSlider from './components/layout/logo-slider';
 import YouTubeVideo from './components/layout/youtube-video';

@@ -16,7 +16,7 @@ function FAQList() {
                     <h2 className={styles['faq-list-header-text']}><span className='text-accent'>Frequently Asked</span><br />Questions</h2>
                 </div>
                 {FAQs.map((question) => (
-                    <Question keu={question.id} {...question} />
+                    <Question key={question.id} {...question} />
                 ))}
             </div>
         </section>

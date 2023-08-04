@@ -113,6 +113,10 @@ li {
   color:#b9f4ae;
 }
 
+.text-accent-inverse {
+  color:#010101;
+}
+
 .slick-track {
   display:flex !important;
   align-items:center !important;

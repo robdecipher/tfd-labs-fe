@@ -21,6 +21,43 @@
     letter-spacing:-0.2rem;
 }
 
+.featured-lowdown-view-more {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.featured-lowdown-view-more-link {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:transparent;
+    border:1.25px solid #f1f1f1;
+    border-radius:3.2rem;
+    color:#f1f1f1;
+    padding:0.5rem 1rem;
+    padding-left:1.5rem;
+    font-size:0.9rem;
+    line-height:1.1rem;
+    transition: background-color 0.5s ease-in;
+}
+
+.featured-lowdown-view-more-link:hover {
+    background-color:#b9f4ae;
+    border:1.25px solid #b9f4ae;
+    color:#010101;
+}
+
+.featured-lowdown-view-more-link svg {
+    width:2rem;
+    color:#b9f4ae;
+    margin-left:0.5rem;
+}
+
+.featured-lowdown-view-more-link:hover svg {
+    color:#010101;
+}
+
 @media screen and (min-width:992px) {
     .featured-lowdown-inner-wrapper {
         padding:2rem 2rem 3.5rem;
@@ -32,16 +69,29 @@
     .featured-lowdown-header-text {
         font-size:3.2rem;
     }
+    .featured-lowdown-view-more {
+        margin-top:2rem;
+    }
 }
 
 @media screen and (min-width:1120px) {
     .featured-lowdown-header-text {
         font-size:3.6rem;
     }
+    .featured-lowdown-view-more-link {
+        font-size:1.1rem;
+        line-height:1.25rem;
+    }
 }
 
 @media screen and (min-width:1400px) {
+    .featured-lowdown-inner-wrapper {
+        margin-bottom:3rem;
+    }
     .featured-lowdown-header-text {
         font-size:4rem;
+    }
+    .featured-lowdown-view-more {
+        margin-top:3rem;
     }
 }

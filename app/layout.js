@@ -1,8 +1,9 @@
 import './globals.css'
-import { Manrope, Inter } from 'next/font/google'
+import { Manrope } from 'next/font/google'
 
 // Required Components
 import MainHeader from './components/layout/main-header';
+import SocialBanner from './components/layout/social-banner';
 
 const manrope = Manrope({ subsets: ['latin'] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={manrope.className}>
         <MainHeader />
         {children}
+        <SocialBanner />
       </body>
     </html>
   )

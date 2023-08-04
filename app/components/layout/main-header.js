@@ -9,7 +9,6 @@ import styles from './main-header.module.css';
 import MenuToggleIcon from '../icons/menu-toggle';
 import MenuToggleClose from '../icons/menu-toggle-close';
 import LoginMenuIcon from '../icons/login-icon';
-import ArrowRightIcon from '../icons/arrow-right';
 import TwitterIcon from '../icons/twitter-icon';
 import InstagramIcon from '../icons/instagram-icon';
 import YouTubeIcon from '../icons/youtube-icon';

@@ -1,0 +1,108 @@
+.social-banner {
+    display:flex;
+    max-width:1440px;
+    margin:0 auto;
+}
+
+.social-banner-inner-wrapper {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding:2rem 1.5rem 2rem;
+}
+
+.social-banner-header {
+    margin-bottom:2rem;
+}
+
+.social-banner-header-text {
+    font-size:2.8rem;
+    line-height:90%;
+    letter-spacing:-0.2rem;
+}
+
+.social-banner-content {
+    display:flex;
+    flex-direction:column;
+    padding:2rem 1.5rem 1rem;
+    background-color:#0e0e0e;
+    border-radius:0.5rem;
+}
+
+.social-banner-header-intro {
+    color:#bbb;
+    font-size:0.9rem;
+    line-height:110%;
+    font-weight:300;
+    text-align:center;
+}
+
+.social-banner-social-links {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    padding:2rem 0 1rem;
+}
+
+.social-banner-social-links a svg {
+    width:2.8rem;
+    color:#b9f4ae;
+    margin:0 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .social-banner-header-intro {
+        width:80%;
+        margin:0 auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .social-banner-header {
+        text-align:center;
+        margin-bottom:2.4rem;
+    }
+    .social-banner-content {
+        padding:3rem 1.5rem 1rem;
+    }
+    .social-banner-header-text {
+        font-size:3.2rem;
+    }
+    .social-banner-header-intro {
+        font-size:1.17rem;
+    }
+    .social-banner-social-links {
+        padding:2rem 0 2rem;
+    }
+    .social-banner-social-links a svg {
+        width:3.2rem;
+        margin:0 1.5rem
+    }
+}
+
+@media screen and (min-width:1120px) {
+    .social-banner-header-text {
+        font-size:3.6rem;
+    }
+    .social-banner-header-intro {
+        font-size:1.25rem;
+    }
+    .social-banner-social-links a svg {
+        width:3.6rem;
+        margin:0 2rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .social-banner-header-text {
+        font-size:4rem;
+    }
+    .social-banner-header-intro {
+        font-size:1.35rem;
+    }
+    .social-banner-social-links a svg {
+        width:4rem;
+        margin:0 2.5rem;
+    }
+}
